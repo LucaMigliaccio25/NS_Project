@@ -1,21 +1,15 @@
 from utils import create_and_transfer_nft, update_nft_metadata
 
-# dati per XRPL
-seed_company = "sEd7uhRLEHf7sELoTUiKTcDwgn3zvdA"
-seed_receiver = "sEd7vJWGo5cYxju2raWQ1yQSFPgVejN"
-product_uri = "https://diadenn.vercel.app/product/mike-wind-1"
-taxon = 0
-
 # URI dell'avatar associato all'NFT dinamico
 avatar_uri = "https://drive.google.com/file/d/1hjWW9yfOnPk1rlcLcjg4ycADWvacXrQy/view?usp=drive_link"
 
 if __name__ == '__main__':
     try:
-        # Creazione NFT su XRPL e Ethereum
-        wallet_receiver, NFT_token_id, token_id, token_uri = create_and_transfer_nft(seed_company, product_uri, avatar_uri, taxon, seed_receiver=seed_receiver)
+        # Creazione NFT su Ethereum
+        token_id, token_uri = create_and_transfer_nft(avatar_uri)
         # print("Everything ok")
         # print(f"{wallet_receiver, NFT_token_id = }")
-        print(f"Creazione completata:\nXRPL: {NFT_token_id}\nEthereum: NFT dinamico creato.")
+        print(f"Ethereum: NFT dinamico creato.")
         print(f"TOKEN ID: {token_id}\n")
         print(f"TOKEN URI: {token_uri}\n")
         
