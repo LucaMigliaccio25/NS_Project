@@ -1,0 +1,19 @@
+{
+    "name": "Arciera",
+    "description": "Un'arciera forte e valorosa.",
+    "image": "data/images/arciera_update.png",
+    "attributes": [
+      {
+        "trait_type": "Classe",
+        "value": "Arciera"
+      },
+      {
+        "trait_type": "Arma",
+        "value": "Arco e Armatura"
+      },
+      {
+        "trait_type": "Specialità",
+        "value": "Forza e carisma"
+      }
+    ]
+  }
