@@ -1,0 +1,19 @@
+{
+  "name": "Stregone",
+  "description": "Un potente stregone con un bastone magico.",
+  "image": "https://drive.google.com/file/d/1d-RkDEKzGx65rASUj7WKv_z2fXot9733/view?usp=drive_link",
+  "attributes": [
+    {
+      "trait_type": "Classe",
+      "value": "Stregone"
+    },
+    {
+      "trait_type": "Arma",
+      "value": "Bastone Magico"
+    },
+    {
+      "trait_type": "Specialità",
+      "value": "Magia"
+    }
+  ]
+}

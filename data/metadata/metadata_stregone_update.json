@@ -1,0 +1,19 @@
+{
+  "name": "Stregone di Fuoco",
+  "description": "Un potente stregone con un libro magico.",
+  "image": "https://drive.google.com/file/d/16L2WspD1LMkgj10Xo4Hjv9ybByznALEr/view?usp=drive_link",
+  "attributes": [
+    {
+      "trait_type": "Classe",
+      "value": "Stregone"
+    },
+    {
+      "trait_type": "Arma",
+      "value": "Libro degli incantesimi"
+    },
+    {
+      "trait_type": "Specialità",
+      "value": "Magia"
+    }
+  ]
+}

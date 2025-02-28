@@ -1,0 +1,19 @@
+{
+  "name": "Cavaliere",
+  "description": "Un cavaliere coraggioso con armatura lucente e spada.",
+  "image": "https://drive.google.com/file/d/10vt2Ms3RwQpdAen1I7EMsw5lW0UwDVxA/view?usp=drive_link",
+  "attributes": [
+    {
+      "trait_type": "Classe",
+      "value": "Cavaliere"
+    },
+    {
+      "trait_type": "Arma",
+      "value": "Spada"
+    },
+    {
+      "trait_type": "Specialità",
+      "value": "Difesa"
+    }
+  ]
+}

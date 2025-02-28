@@ -1,0 +1,19 @@
+{
+  "name": "Arciera",
+  "description": "Una giovane arciera agile e precisa.",
+  "image": "https://drive.google.com/file/d/1XOYbgR1iDfBCePgNPSB_uxn5JdvZedlw/view?usp=drive_link",
+  "attributes": [
+    {
+      "trait_type": "Classe",
+      "value": "Arciera"
+    },
+    {
+      "trait_type": "Arma",
+      "value": "Arco"
+    },
+    {
+      "trait_type": "Specialità",
+      "value": "Precisione"
+    }
+  ]
+}
