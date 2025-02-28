@@ -1,23 +1,23 @@
 from utils import create_and_transfer_nft, update_nft_metadata
 import os
 
-# Percorso della cartella "data/metadata"
-cartella_metadata = os.path.join('data', 'metadata')
+# Path della cartella contenente i metadati ("data/metadata")
+path_metadata = os.path.join('data', 'metadata')
 
-# Nome del file JSON che vuoi leggere
+# Nome del file JSON che si desidera leggere
 avatar_uri_0 = 'metadata_arciera.json'
 avatar_uri_1 = 'metadata_cavaliere.json'
 avatar_uri_2 = 'metadata_stregone.json'
 
-# Percorso completo del file JSON
-path_avatar_uri_0 = os.path.join(cartella_metadata, avatar_uri_0)
-path_avatar_uri_1 = os.path.join(cartella_metadata, avatar_uri_1)
-path_avatar_uri_2 = os.path.join(cartella_metadata, avatar_uri_2)
+# Percorso completo del file JSON (singoli avatar)
+path_avatar_uri_0 = os.path.join(path_metadata, avatar_uri_0)
+path_avatar_uri_1 = os.path.join(path_metadata, avatar_uri_1)
+path_avatar_uri_2 = os.path.join(path_metadata, avatar_uri_2)
 
 # Percorso completo del file JSON (avatar aggiornati)
-path_avatar_uri_0 = os.path.join(cartella_metadata, 'metadata_arciera_update.json')
-path_avatar_uri_1 = os.path.join(cartella_metadata, 'metadata_cavaliere_update.json')
-path_avatar_uri_2 = os.path.join(cartella_metadata, 'metadata_stregone_update.json')
+path_avatar_uri_0 = os.path.join(path_metadata, 'metadata_arciera_update.json')
+path_avatar_uri_1 = os.path.join(path_metadata, 'metadata_cavaliere_update.json')
+path_avatar_uri_2 = os.path.join(path_metadata, 'metadata_stregone_update.json')
 
 if __name__ == '__main__':
     try:
