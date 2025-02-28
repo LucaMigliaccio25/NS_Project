@@ -1,0 +1,19 @@
+{
+    "name": "Anonymous",
+    "description": "Dati corrotti. Questo NFT è stato alterato!!!",
+    "image": "data/images/anonymous.png",
+    "attributes": [
+      {
+        "trait_type": "Classe",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Arma",
+        "value": "Attacco On-Chain"
+      },
+      {
+        "trait_type": "Specialità",
+        "value": "Manipolazione della blockchain"
+      }
+    ]
+}
